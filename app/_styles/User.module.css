@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap");
+.confined {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  background-color: #09090b;
+  padding-bottom: 20px;
+}
+
+.cardContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.secondCardContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profilePicture {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  flex-shrink: 0;
+  background-color: #4a5568;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.userName {
+  color: white;
+  font-size: 36px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.tabs {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.artistName {
+  color: #3a4251;
+  font-size: 1rem;
+  margin-left: 12px;
+}
+.songName {
+  font-size: 1.25rem;
+  color: white;
+  margin-left: 7px;
+}
+.imageContainer {
+  display: flex;
+  margin-right: 0;
+  max-width: none;
+}
+.counter {
+  color: #3a4251;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.topMargin {
+  margin-top: 30px;
+}
+.userContainer {
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.heyThere {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.txtClr {
+  color: #3a4251;
+  text: bold;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
